@@ -56,9 +56,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** -kies uit zwart, rood óf blauw-
+Mijn startniveau ligt zeker op blauw, ik heb wel enige kenis van HTML en CSS, maar ik kan zeker nog een hoop leren over Javascript. Hard aan de slag dus!
+Ik kies voor een Responsive website met de mobile-first gedachte, deze keuze heb ik gemaakt omdat voor veel websites die op mobiel bezocht gaan worden het ontwerpprocess ook zo in elkaar zit.  
 
-**Je focus:** -kies uit responsive óf surface plane-
 
 **Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
 
