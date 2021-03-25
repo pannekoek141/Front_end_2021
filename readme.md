@@ -21,7 +21,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Alle HTML van de homepage erin gezet, ik moest alleen de socials voor nu kopieren omdat ik daar niet uit kwam 
+-dit ging goed & dit was lastig. Mor
 
 **Screenshot(s):**
 
@@ -39,15 +40,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** -kies uit zwart, rood óf blauw-
+**Je startniveau:** 
+Mijn startniveau is blauw 
 
-**Je focus:** -kies uit responsive óf surface plane-
+**Je focus:** 
+Responsive
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+**Je opdracht:** 
+https://duckduckgo.com/
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+(images/Screenshot-1.png)
+(images/Screenshot-2.png)
+
 
 **Breakdown-schets(en):**
 
