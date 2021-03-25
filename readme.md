@@ -34,9 +34,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 
-## Voortgang 1 (week 3)
+## Voortgang week 1
 
 ### Stand van zaken
+Tijdens het programmeren moest ik link plaatsen in een paragraph, dit moest ik onderzoeken. 
 
 -dit ging goed & dit was lastig-
 
@@ -60,7 +61,7 @@ Mijn startniveau ligt zeker op blauw, ik heb wel enige kenis van HTML en CSS, ma
 Ik kies voor een Responsive website met de mobile-first gedachte, deze keuze heb ik gemaakt omdat voor veel websites die op mobiel bezocht gaan worden het ontwerpprocess ook zo in elkaar zit.  
 
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+**Je opdracht:** https://duckduckgo.com/
 
 **Screenshot(s):**
 
