@@ -12,189 +12,172 @@
 
 </head>
 
-<!-- normal, active en hover in de css code invoegen -->
-
 <body>
-    <!-- Socials -->
-    <header class="socials">
-        <span class="header__clickable js-hl-button" data-type="social" aria-pressed="true"><span
-                class="js-popout-trig header--aside__social-icon " aria-haspopup="true" aria-label="Keep in touch"
-                role="button" aria-pressed="false"><span class="ddgsi ddgsi-horn" data-type="social"></span></span><span
-                class="popout-trig js-popout"><span class="js-popout-link ddgsi ddgsi-down" aria-hidden="true"
-                    data-type="social"></span>
-                <div class="modal modal--popout modal--popout--bottom-left modal--popout--sm  js-popout-main"
-                    data-type="social">
-                    <div class="modal__box">
-                        <div class="modal__body">
-                            <div class="social__link"><a href="https://twitter.com/duckduckgo"
-                                    class="js-hl-item social__link__text" data-type="social" data-id="twitter"><img
-                                        class="social__icon js-lazysvg" data-src="/assets/icons/header/twitter.svg"
-                                        src="/assets/icons/header/twitter.svg"><span>Twitter</span></a></div>
-                            <div class="social__link"><a href="https://reddit.com/r/duckduckgo"
-                                    class="js-hl-item social__link__text" data-type="social" data-id="reddit"><img
-                                        class="social__icon js-lazysvg" data-src="/assets/icons/header/reddit.svg"
-                                        src="/assets/icons/header/reddit.svg"><span>Reddit</span></a></div>
-                            <div class="social__link"><a href="https://spreadprivacy.com"
-                                    class="js-hl-item social__link__text" data-type="social" data-id="blog"><img
-                                        class="social__icon js-lazysvg" data-src="/assets/icons/header/blog.svg"
-                                        src="/assets/icons/header/blog.svg"><span>Blog</span></a></div>
-                            <div class="social__link"><a href="https://duckduckgo.com/newsletter"
-                                    class="js-hl-item social__link__text" data-type="social" data-id="newsletter"><img
-                                        class="social__icon js-lazysvg" data-src="/assets/icons/header/newsletter.svg"
-                                        src="/assets/icons/header/newsletter.svg"><span>Newsletter</span></a></div>
-                        </div>
-                    </div>
-                </div>
-            </span></span>
-    </header>
-    <!-- Logo and searchbar -->
-    <section class="searchbar-heading">
-        <a class="biglogo" href="/Front_end_2021-main/index.html">
-            <img alt="DuckDuckGo-Logo" src="images/logo_homepage.alt.v108.svg" width="400">
-        </a>
-        <form class="searchbar">
-            <input type="text" name="search" placeholder="Search the web without being tracked">
-            <input class="search-button" type="submit">
-        </form>
+    <main>
+        <section>
+            <!-- Logo and searchbar -->
+            <a class="biglogo" href="/Front_end_2021-main/index.html">
+                <img alt="DuckDuckGo-Logo" src="images/logo_homepage.alt.v108.svg" width="400">
+            </a>
+            <form class="searchbar">
+                <input type="text" name="search" placeholder="Search the web without being tracked">
+                <input class="search-button" type="submit">
+            </form>
 
 
-        <h2 class="h2">Tired of being tracked online? We can help.</h2>
-        <p>We don't store your personal info. We don't follow you around with ads. We don't track you. Ever</p>
-        <a class="button" href="add-duckduckgo.html">Add DuckDuckGo to Edge</a>
-        <strong>Privacy Protection For Any Device
-        </strong>
+            <h2>Tired of being tracked online? We can help.</h2>
+            <p>We don't store your personal info. We don't follow you around with ads. We don't track you. Ever</p>
+            <a class="button" href="add-duckduckgo.html">Add DuckDuckGo to Edge</a>
+            <strong>Privacy Protection For Any Device
+            </strong>
+        </section>
 
         <!-- Content blocks -->
-        <section class="content-blocks">
-            <div class="content-info">
+        <section>
+            <article class="content-info">
                 <img class="" src="images/laptop.svg" alt="laptop with bird">
                 <h3>Privacy Browser Extension
                 </h3>
                 <p>Browse as usual, and we’ll take care of the rest. Get bundled private search, tracker blocking,
                     and
                     site encryption, all in one download, for major browsers.</p>
-            </div>
-            <div class="content-info">
+            </article>
+            <article class="content-info">
                 <img class="" src="images/laptop.svg" alt="laptop with bird">
                 <h3>Private Search Engine
 
                 </h3>
                 <p>Search privately with our app or extension, add private web search to your favorite browser, or
                     search directly at duckduckgo.com.</p>
-            </div>
+            </article>
             <div class="content-info">
                 <img class="" src="images/search.svg" alt="Search-icon">
                 <h3>Privacy Browser App
                 </h3>
                 <p>Our private browser for mobile comes equipped with our search engine, tracker blocker, encryption
                     enforcer, and more. Available on iOS & Android.</p>
-            </div>
+                </article>
         </section>
 
         <!-- Onboarding Section -->
-        <section class="onboarding">
-            <h1 class="h1">We don’t store your personal information. Ever.</h1>
+        <section>
+            <h1 class>We don’t store your personal information. Ever.</h1>
             <p class="onboarding-text">Our privacy policy is simple: we don’t collect
                 or share any of your personal information.</p>
             <a href="add-duckduckgo.html">Add DuckDuckGo to Edge</a>
-            <img class="" src="images/1-monster-v2--pre-animation.svg">
+            <img src="images/1-monster-v2--pre-animation.svg">
         </section>
+    </main>
 
-        <!-- Questions-Section -->
-        <article class="questions">
-            <h2>Frequently Asked Questions
-            </h2>
-            <section class="js-faq-section">
-                <button class="faq-button"></button>
-                <h3>How does DuckDuckGo make money?
-                </h3>
-                <p>We make our money from private ads on our search engine. On other search engines, ads are based
-                    on
-                    profiles compiled about you using your personal information like search, browsing, and purchase
-                    history. Since we don’t collect that information, search ads on DuckDuckGo are based on the
-                    search
-                    results page you are viewing, not on you as a person. For example, if you search for cars, we’ll
-                    show you ads about cars. Learn more.</p>
+    <!-- Questions-Section -->
+    <article>
+        <h2>Frequently Asked Questions</h2>
+        <section class="accordionWrapper">
+            <section class="accordionItem open">
+                <h3 class="accordionItemHeading">How does DuckDuckGo make money?</h3>
+                <section class="accordionItemContent">
+                    <p>We make our money from private ads on our search engine. On other search engines, ads are based
+                        on profiles compiled about you using your personal information like search, browsing, and
+                        purchase history. Since we don’t collect that information, search ads on DuckDuckGo are based on
+                        the
+                        search results page you are viewing, not on you as a person. For example, if you search for
+                        cars, we’ll
+                        show you ads about cars. Learn more.</p>
+                </section>
             </section>
-            <section class="js-faq-section">
-                <button class="faq-button"></button>
-                <h3>What does Google know about me?
-                </h3>
-                <p>Not only does Google keep your search history forever by default, their trackers have been found
-                    on
-                    75% of the top million websites, which means they are tracking most everywhere you go on the
-                    Internet (unless you stop them with DuckDuckGo!). And that’s just the tip of the iceberg. Learn
-                    more.</p>
+        </section>
+        <section class="accordionWrapper">
+            <section class="accordionItem close">
+                <h3 class="accordionItemHeading">What does Google know about me?</h3>
+                <section class="accordionItemContent">
+                    <p>Not only does Google keep your search history forever by default, their trackers have been found
+                        on 75% of the top million websites, which means they are tracking most everywhere you go on the
+                        Internet (unless you stop them with DuckDuckGo!). And that’s just the tip of the iceberg. Learn
+                        more.</p>
+                </section>
             </section>
-            <section class="js-faq-section">
-                <button class="faq-button"></button>
-                <h3>Why use DuckDuckGo instead of Google?
-                </h3>
-                <p>Ever notice ads constantly following you around? That’s in part because Google tracks your
-                    searches
-                    and hides trackers on millions of websites. By contrast, our private search engine doesn’t track
-                    your searches and our DuckDuckGo browser extension and mobile app block Google’s (and many other
-                    companies’) trackers across the Internet, helping to keep your browsing history more private, as
-                    it
-                    should be. And that’s just the beginning — by using DuckDuckGo you also escape the manipulation
-                    of
-                    the filter bubble and can use the Internet faster (after all that tracking code is disabled).
-                    Learn
-                    more.
-                </p>
+        </section>
+        <section class="accordionWrapper">
+            <section class="accordionItem close">
+                <h3 class="accordionItemHeading">Why use DuckDuckGo instead of Google?</h3>
+                <section class="accordionItemContent">
+                    <p>Ever notice ads constantly following you around? That’s in part because Google tracks your
+                        searches
+                        and hides trackers on millions of websites. By contrast, our private search engine doesn’t track
+                        your searches and our DuckDuckGo browser extension and mobile app block Google’s (and many other
+                        companies’) trackers across the Internet, helping to keep your browsing history more private, as
+                        it
+                        should be. And that’s just the beginning — by using DuckDuckGo you also escape the manipulation
+                        of
+                        the filter bubble and can use the Internet faster (after all that tracking code is disabled).
+                        Learn
+                        more.</p>
+                </section>
             </section>
-            <section class="js-faq-section">
-                <button class="faq-button"></button>
-                <h3>How do DuckDuckGo search results compare to Google’s?
-                </h3>
-                <p>DuckDuckGo search gives you truly private search results without tradeoffs in result quality. We
-                    have
-                    everything you’ve come to expect in an online search experience, and a few bonus features that
-                    make
-                    searching the Internet not only private, but also a bit more fun! And, on top of that, because
-                    there
-                    is no search history on DuckDuckGo, you escape the filter bubble of manipulated results. Learn
-                    more.
-                </p>
+        </section>
+        <section class="accordionWrapper">
+            <section class="accordionItem close">
+                <h3 class="accordionItemHeading">How do DuckDuckGo search results compare to Google’s?</h3>
+                <section class="accordionItemContent">
+                    <p>DuckDuckGo search gives you truly private search results without tradeoffs in result quality. We
+                        have
+                        everything you’ve come to expect in an online search experience, and a few bonus features that
+                        make
+                        searching the Internet not only private, but also a bit more fun! And, on top of that, because
+                        there
+                        is no search history on DuckDuckGo, you escape the filter bubble of manipulated results. Learn
+                        more.</p>
+                </section>
             </section>
-            <section class="js-faq-section">
-                <button class="faq-button"></button>
-                <h3>What’s the difference between using DuckDuckGo and Incognito mode?
-                </h3>
-                <p>It is a myth that you can’t be tracked while using so-called “Incognito” mode. In fact, Incognito
-                    mode mainly just deletes information on your computer and does nothing to stop Google from
-                    saving
-                    your searches, nor does it stop companies, Internet service providers, or governments from being
-                    able to track you across the Internet. By contrast, DuckDuckGo search is completely anonymous
-                    and if
-                    you add our app & extension on top, we help keep you private when browsing off of search
-                    results.
-                    Learn more.</p>
+        </section>
+        </section>
+        <section class="accordionWrapper">
+            <section class="accordionItem close">
+                <h3 class="accordionItemHeading">What’s the difference between using DuckDuckGo and Incognito mode?</h3>
+                <section class="accordionItemContent">
+                    <p>It is a myth that you can’t be tracked while using so-called “Incognito” mode. In fact, Incognito
+                        mode mainly just deletes information on your computer and does nothing to stop Google from
+                        saving
+                        your searches, nor does it stop companies, Internet service providers, or governments from being
+                        able to track you across the Internet. By contrast, DuckDuckGo search is completely anonymous
+                        and if
+                        you add our app & extension on top, we help keep you private when browsing off of search
+                        results.
+                        Learn more.</p>
+                </section>
             </section>
-            <section class="js-faq-section">
-                <button class="faq-button"></button>
-                <h3>How popular is DuckDuckGo?
-                </h3>
-                <p>We don’t track our users, so it’s actually impossible for us to know how many users in total are
-                    using our products. However, we are able to make an estimate based on the number of searches we
-                    get
-                    per month, which we make public. Our best guess — over 50 million people! Learn more.</p>
+        </section>
+        <section class="accordionWrapper">
+            <section class="accordionItem close">
+                <h3 class="accordionItemHeading">How popular is DuckDuckGo</h3>
+                <section class="accordionItemContent">
+                    <p>We don’t track our users, so it’s actually impossible for us to know how many users in total are
+                        using our products. However, we are able to make an estimate based on the number of searches we
+                        get
+                        per month, which we make public. Our best guess — over 50 million people! Learn more.</p>
+                </section>
             </section>
-            <section class="js-faq-section">
-                <button class="faq-button"></button>
-                <h3>How does the DuckDuckGo app & extension work?
-                </h3>
-                <p>The DuckDuckGo Privacy Browser mobile app and Privacy Essentials desktop extension both come with
-                    our
-                    best-in-class tracker blocker, encryption enforcer, and private search engine – all in one
-                    simple
-                    package. This gives you all the key privacy protection tools to search and browse privately,
-                    curbing
-                    the constant monitoring of your Internet activity by companies like Google and Facebook. Learn
-                    more.
-                </p>
+        </section>
+        <section class="accordionWrapper">
+            <section class="accordionItem close">
+                <h3 class="accordionItemHeading">How does the DuckDuckGo app & extension work?</h3>
+                <section class="accordionItemContent">
+                    <p>The DuckDuckGo Privacy Browser mobile app and Privacy Essentials desktop extension both come with
+                        our
+                        best-in-class tracker blocker, encryption enforcer, and private search engine – all in one
+                        simple
+                        package. This gives you all the key privacy protection tools to search and browse privately,
+                        curbing
+                        the constant monitoring of your Internet activity by companies like Google and Facebook. Learn
+                        more.</p>
+                </section>
             </section>
-            <a class="button" href="add-duckduckgo.html">Add DuckDuckGo to Edge</a>
+        </section>
+        <a class="button" href="add-duckduckgo.html">Add DuckDuckGo to Edge</a>
+    </article>
 
+    <script src="scripts/script.js"></script>
 
-        </article>
+</body>
+
+</html>
