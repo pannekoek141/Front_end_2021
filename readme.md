@@ -57,9 +57,9 @@ normal, active en hover in de css code invoegen
 
 https://github.com/cirogoud/FED-2021-HER
 
-
 Notities Robert 
 groepeer het voor styling purposes
+javascript classes niet nodig 
 
 **Je opdracht:** 
 https://duckduckgo.com/
