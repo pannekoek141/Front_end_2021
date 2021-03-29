@@ -46,6 +46,21 @@ Mijn startniveau is blauw
 **Je focus:** 
 Responsive
 
+**aantekeningen**
+normal, active en hover in de css code invoegen
+
+-minder classes, articles voor groeperen, cascading, faq als section section als article, html semantisch
+        afsluiten altijd, geen important gebruiken, mobile first gaan ontwerpen, ciro heeft clean code, Css is ook goed,
+        eerst de html, accordion javascript
+
+<https://codepen.io/sureshrkm/pen/ZbzBpr
+
+https://github.com/cirogoud/FED-2021-HER
+
+
+Notities Robert 
+groepeer het voor styling purposes
+
 **Je opdracht:** 
 https://duckduckgo.com/
 
