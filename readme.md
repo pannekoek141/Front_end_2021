@@ -1,9 +1,6 @@
 # Procesverslag
 **Auteur:** -Eward de vos-
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-
 
 ## Bronnenlijst
 1. -bron 1-
@@ -24,9 +21,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 Alle HTML van de homepage erin gezet, ik moest alleen de socials voor nu kopieren omdat ik daar niet uit kwam 
 -dit ging goed & dit was lastig. Mor
 
-**Screenshot(s):**
-
--screenshot(s) van hoe ver je bent-
 
 ### Agenda voor meeting
 
@@ -38,13 +32,12 @@ Alle HTML van de homepage erin gezet, ik moest alleen de socials voor nu kopiere
 
 
 
-## Intake (week 1)
 
 **Je startniveau:** 
-Mijn startniveau is blauw 
+Mijn startniveau is blauw. Dit omdat ik weinig ervaring met progammeren heb, tijdens mijn studie heb ik mij veel gericht op ontwerpen
 
 **Je focus:** 
-Responsive
+Het begrijpen van HTML, CSS en Javascript om als ontwerper een betere blik te krijgen om progammeren. 
 
 **aantekeningen**
 normal, active en hover in de css code invoegen
@@ -53,15 +46,13 @@ normal, active en hover in de css code invoegen
         afsluiten altijd, geen important gebruiken, mobile first gaan ontwerpen, ciro heeft clean code, Css is ook goed,
         eerst de html, accordion javascript
 
-<https://codepen.io/sureshrkm/pen/ZbzBpr
-
-https://github.com/cirogoud/FED-2021-HER
 
 Notities Robert 
 groepeer het voor styling purposes
 javascript classes niet nodig 
 
 **Je opdracht:** 
+Ik ga de intro website van DuckDuckgo nabouwen
 https://duckduckgo.com/
 
 **Screenshot(s):**
