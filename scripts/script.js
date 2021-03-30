@@ -3,7 +3,7 @@
 //Haalt alle items op met de classname accordionItem en slaat deze op in een array(collectie van items)
 var accItem = document.getElementsByClassName('accordionItem');
 
-//Voor elke item in de array accItem voeg de event listener CLICK toe
+//Voor elke item in de array accItem voegt de event listener CLICK toe. De for loop zorgt dat alle items worden meegenomen
 for (i = 0; i < accItem.length; i++) {
     accItem[i].addEventListener('click', toggleItem);
     //wanneer click triggert, voer de functie toggleItem uit

@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 
+/* Index CSS */
+
 body {
   margin: 0em;
   background-color: #1c1c1c;
@@ -22,15 +24,28 @@ h1 {
   margin: 0em;
 }
 
+h2 {
+  font-size: 32px;
+  font-weight: 900;
+
+  margin: 2em 0em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 h3 {
   font-size: 21px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .subheader {
   line-height: 1.7em;
   max-width: 33em;
   margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .link-add {
@@ -39,7 +54,7 @@ h3 {
 
 .button {
   width: 15.6em;
-  margin-top: 2em;
+  margin: 2em auto;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -60,7 +75,9 @@ h3 {
 .biglogo {
   width: 200px;
   margin: 2em;
+  margin-top: 4em;
 }
+
 main {
   margin-left: auto;
   margin-right: auto;
@@ -68,11 +85,18 @@ main {
 }
 
 .info {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 1.9em;
   padding: 0 2.5em;
-  margin-bottom: 6.25em;
+  margin-bottom: -15em;
   max-width: 71em;
   min-height: 20em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+  z-index: 100;
 }
 
 .content-icon {
@@ -84,18 +108,20 @@ main {
 .content-info {
   background: #282828;
   box-shadow: 0 1px 3px rgb(0 0 0 / 50%);
-
   border: 1px solid #282828;
   background: #282828;
   box-shadow: 0 1px 3px rgb(0 0 0 / 50%);
-  padding: 1.5em;
-  margin: 20px 12px;
+  padding: 1.55em;
+  margin: 0 12px 20px;
   max-width: 90%;
   line-height: 1.6em;
   border-radius: 1.1em;
   width: 332px;
   min-height: 322px;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .content-link {
@@ -113,6 +139,9 @@ form {
   display: flex;
   max-width: 665px;
   border-radius: 0.15em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 input[type="text"] {
@@ -138,13 +167,6 @@ input[type="image"] {
 
 input[type="image"]:hover {
   background-color: #444444;
-}
-
-.content-info__curve {
-  color: #58b792;
-  width: 100%;
-  z-index: 0;
-  margin-bottom: -10px;
 }
 
 .onboarding-text {
@@ -182,7 +204,16 @@ input[type="image"]:hover {
   margin-right: auto;
   text-align: center;
 }
+
+.content-info__curve {
+  position: relative;
+  color: #58b792;
+  width: 100%;
+  margin-bottom: -10px;
+}
+
 .onboarding {
+  position: relative;
   background: #58b792;
   height: auto;
   padding-top: 5em;
@@ -192,20 +223,36 @@ input[type="image"]:hover {
   width: 100%;
 }
 
+.faq {
+  margin-top: 6.25em;
+  padding: 0em 1.25em;
+  max-width: 48em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Accordion CSS*/
 
+.text {
+  line-height: 1.8;
+}
+
+.text-link {
+  font-weight: 600;
+  color: #678fff;
+  text-decoration: none;
+}
 .accordionItem {
   float: left;
   display: block;
   width: 100%;
+  border-top: 1px solid #333333;
+  padding-left: 50px;
 }
 
 .close .accordionItemContent {
   height: 0px;
   transition: height 1s ease-out;
-  -webkit-transform: scaleY(0);
-  -o-transform: scaleY(0);
-  -ms-transform: scaleY(0);
   transform: scaleY(0);
   float: left;
   display: block;
@@ -214,34 +261,65 @@ input[type="image"]:hover {
   width: 100%;
   margin: 0px 0px 10px 0px;
   display: block;
-  -webkit-transform: scaleY(1);
-  -o-transform: scaleY(1);
-  -ms-transform: scaleY(1);
   transform: scaleY(1);
-  -webkit-transform-origin: top;
-  -o-transform-origin: top;
-  -ms-transform-origin: top;
   transform-origin: top;
-
-  -webkit-transition: -webkit-transform 0.4s ease-out;
-  -o-transition: -o-transform 0.4s ease;
-  -ms-transition: -ms-transform 0.4s ease;
   transition: transform 0.4s ease;
   box-sizing: border-box;
 }
 
-.open .accordionItemHeading {
+/*how to install page CSS*/
+
+.body2 {
+  background-color: white;
+}
+
+.hero {
+  padding-bottom: 0.5em;
+  padding-top: 1.5em;
+  line-height: 1.2em;
+  font-weight: 600;
+  font-size: 2.5em;
+  background-color: #66abff;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 60px;
+}
+
+.heroimg {
+  position: relative;
+  top: 9px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.step-counter {
+  background: #de5833;
+  border-radius: 100%;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 2em;
+}
+
+.steps {
+  max-width: 700px;
+  margin: 0 50px;
+}
+
+.step-img {
+  width: 100%;
+  max-width: 315px;
+  border: 3px solid #ededed;
+}
+
+.step-desc {
+  font-size: 16px;
+  font-weight: 300;
+  color: #666666;
   margin: 0px;
-  -webkit-border-top-left-radius: 3px;
-  -webkit-border-top-right-radius: 3px;
-  -moz-border-radius-topleft: 3px;
-  -moz-border-radius-topright: 3px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  -webkit-border-bottom-right-radius: 0px;
-  -webkit-border-bottom-left-radius: 0px;
-  -moz-border-radius-bottomright: 0px;
-  -moz-border-radius-bottomleft: 0px;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
+  padding-bottom: 0.25em;
 }
