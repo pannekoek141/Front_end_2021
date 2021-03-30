@@ -60,8 +60,7 @@ https://duckduckgo.com/
 ![alt text](https://github.com/pannekoek141/Front_end_2021/blob/main/images/Screenshot-1.png?raw=true)
 ![alt text](https://github.com/pannekoek141/Front_end_2021/blob/main/images/Screenshot-2.png?raw=true)
 
+![alt text](https://github.com/pannekoek141/Front_end_2021/blob/main/Screenshot-site-2.png?raw=true)
+![alt text](https://github.com/pannekoek141/Front_end_2021/blob/main/Screenshot-site-3.png?raw=true)
 
 
-**Breakdown-schets(en):**
-
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
