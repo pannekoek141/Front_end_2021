@@ -57,8 +57,7 @@ https://duckduckgo.com/
 
 **Screenshot(s):**
 
-(images/Screenshot-1.png)
-(images/Screenshot-2.png)
+![alt text](https://github.com/pannekoek141/Front_end_2021/blob/main/images/Screenshot-1.png?raw=true)
 
 
 **Breakdown-schets(en):**
