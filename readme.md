@@ -20,6 +20,8 @@ Website bijna afgerond, responsive werkt ook goed nu
 ### Wat ging goed en minder goed
 - Ik had wat moeite om de website responive te krijgen, dit kwam omdat ik display:flex gebruikte zonder aanduiding, toen ik flex:wrap toevoegde werkte het naar behoren.
 - krijg de 2e pagina niet responsive werkend op desktop format door tekst naast afbeelding
+- Toggle arrow krijg ik niet werkend in de Accordion
+- Animatie is net anders dan de echte Duckduckgo site
 + pagina is responsive functioneel
 + Search icon in zoekbalk na lang proberen werkt
 + Ik vind het progammeren leuk
