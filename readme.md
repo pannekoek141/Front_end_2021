@@ -22,6 +22,7 @@ Website bijna afgerond, responsive werkt ook goed nu
 - krijg de 2e pagina niet responsive werkend op desktop format door tekst naast afbeelding
 - Toggle arrow krijg ik niet werkend in de Accordion
 - Animatie is net anders dan de echte Duckduckgo site
+- Margin onderste button werkt niet
 + pagina is responsive functioneel
 + Search icon in zoekbalk na lang proberen werkt
 + Ik vind het progammeren leuk
