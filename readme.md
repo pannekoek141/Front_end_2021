@@ -28,9 +28,6 @@ Alle HTML van de homepage erin gezet, ik moest alleen de socials voor nu kopiere
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
-
-
 
 
 **Je startniveau:** 
@@ -39,20 +36,10 @@ Mijn startniveau is blauw. Dit omdat ik weinig ervaring met progammeren heb, tij
 **Je focus:** 
 Het begrijpen van HTML, CSS en Javascript om als ontwerper een betere blik te krijgen om progammeren. 
 
-**aantekeningen**
-normal, active en hover in de css code invoegen
 
--minder classes, articles voor groeperen, cascading, faq als section section als article, html semantisch
-        afsluiten altijd, geen important gebruiken, mobile first gaan ontwerpen, ciro heeft clean code, Css is ook goed,
-        eerst de html, accordion javascript
-
-
-Notities Robert 
-groepeer het voor styling purposes
-javascript classes niet nodig 
 
 **Je opdracht:** 
-Ik ga de intro website van DuckDuckgo nabouwen
+Ik ga de duckduckgo hoofdpagina en how to install pagina na maken. en de Accordion maken in Javascript 
 https://duckduckgo.com/
 
 **Screenshot(s):**
