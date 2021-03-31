@@ -8,15 +8,18 @@
 3. https://www.google.com/
 
 
+## Verslag van meeting 3
+
+
 ## Voortgang Week 2
 ### Stand van zaken
 Eerst de HTML code aangepast zodat het semantisch beter klopt, vervolgens de Javascript + bijhorende HTML code schoongemaakt naar wat nodig is. Daarna de CSS code voor de animatie schoongemaakt naar wat nodig is. 
 Website bijna afgerond, responsive werkt ook goed nu
 
-## Verslag van meeting
+## Verslag van meeting 2
 - Werken aan de responsive werking van de website
 - Denken aan schone CSS code zonder webkit meuk
-- 
+
 ### Wat ging goed en minder goed
 - Ik had wat moeite om de website responive te krijgen, dit kwam omdat ik display:flex gebruikte zonder aanduiding, toen ik flex:wrap toevoegde werkte het naar behoren.
 - krijg de 2e pagina niet responsive werkend op desktop format door tekst naast afbeelding
@@ -32,7 +35,7 @@ Website bijna afgerond, responsive werkt ook goed nu
 ### Stand van zaken
 HTML opgebouwd en basis css neergezet, weinig gewerkt door het trekken van een verstandskies. Eerst niet mobile first gebouwd. 
 
-### Verslag van meeting
+### Verslag van meeting 1
 - Minder CSS classes gebruiken door css cascading
 - Gebruik DIVS alleen om te grouperen
 - Beter gebruik van html tags voor semantische code 
