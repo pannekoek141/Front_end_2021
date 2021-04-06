@@ -18,24 +18,27 @@ header {
   padding: 0.43em;
 }
 h1 {
-  font-size: 32px;
+  font-size: 2em;
   font-weight: 900;
   padding-bottom: 0.5em;
   margin: 0em;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 2em;
   font-weight: 900;
-
-  margin: 2em 0em;
+  margin: 0.5em 0em;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
+.faq-head {
+  margin-bottom: 2em;
+}
+
 h3 {
-  font-size: 21px;
+  font-size: 1.3em;
   font-weight: 700;
 }
 
@@ -58,9 +61,9 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  height: 43px;
-  min-height: 44px;
-  font-size: 15px;
+  height: 2.7em;
+  min-height: 2.75em;
+  font-size: 1em;
   align-items: center;
   justify-content: center;
   background-color: #678fff;
@@ -73,7 +76,7 @@ h3 {
 }
 
 .biglogo {
-  width: 200px;
+  width: 12.5em;
   margin: 2em;
   margin-top: 4em;
 }
@@ -101,8 +104,8 @@ main {
 
 .content-icon {
   width: auto;
-  min-height: 72px;
-  max-height: 72px;
+  min-height: 4.5em;
+  max-height: 4.5em;
 }
 
 .content-info {
@@ -112,12 +115,12 @@ main {
   background: #282828;
   box-shadow: 0 1px 3px rgb(0 0 0 / 50%);
   padding: 1.55em;
-  margin: 0 12px 20px;
+  margin: 0 0.75em 1.25em;
   max-width: 90%;
   line-height: 1.6em;
   border-radius: 1.1em;
-  width: 332px;
-  min-height: 322px;
+  width: 20em;
+  min-height: 20em;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
@@ -137,7 +140,7 @@ form {
   box-shadow: 0 1px 3px rgb(0 0 0 / 50%);
   height: 2.8em;
   display: flex;
-  max-width: 665px;
+  max-width: 41.5em;
   border-radius: 0.15em;
   margin-left: auto;
   margin-right: auto;
@@ -171,22 +174,22 @@ input[type="image"]:hover {
 
 .onboarding-text {
   line-height: 1.25em;
-  font-size: 17px;
+  font-size: 1.06em;
 }
 
 .btn-onboarding {
   background-color: #333333;
   border-color: transparent;
   color: #eeeeee;
-  margin-top: 25px;
-  padding: 12px 16px;
+  margin-top: 1.56em;
+  padding: 0.75em 1em;
   text-decoration: none;
   font-weight: 600;
   line-height: 100%;
   color: #fff;
   background: rgba(0, 0, 0, 0.4);
   border: none;
-  font-size: 18px;
+  font-size: 1.1em;
   display: inline-block;
   border-radius: 10px;
 }
@@ -209,7 +212,7 @@ input[type="image"]:hover {
   position: relative;
   color: #58b792;
   width: 100%;
-  margin-bottom: -10px;
+  margin-bottom: -0.62em;
 }
 
 .onboarding {
@@ -247,11 +250,11 @@ input[type="image"]:hover {
   display: block;
   width: 100%;
   border-top: 1px solid #333333;
-  padding-left: 50px;
+  padding-left: 3.1em;
 }
 
 .close .accordionItemContent {
-  height: 0px;
+  height: 0;
   transition: height 1s ease-out;
   transform: scaleY(0);
   float: left;
@@ -259,7 +262,7 @@ input[type="image"]:hover {
 }
 .open .accordionItemContent {
   width: 100%;
-  margin: 0px 0px 10px 0px;
+  margin: 0 0 10 0;
   display: block;
   transform: scaleY(1);
   transform-origin: top;
@@ -276,20 +279,17 @@ input[type="image"]:hover {
 .hero {
   padding-bottom: 0.5em;
   padding-top: 1.5em;
-  line-height: 1.2em;
-  font-weight: 600;
-  font-size: 2.5em;
   background-color: #66abff;
   border-bottom: 1px solid #ccc;
   text-align: center;
   padding-bottom: 0;
-  margin-bottom: 60px;
+  margin-bottom: 3.75em;
 }
 
 .heroimg {
   position: relative;
   top: 9px;
-  max-width: 800px;
+  max-width: 50em;
   width: 100%;
 }
 
@@ -297,29 +297,59 @@ input[type="image"]:hover {
   background: #de5833;
   border-radius: 100%;
   color: #fff;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
+  width: 2.18em;
+  height: 2.18em;
+  line-height: 2.18em;
   text-align: center;
   padding: 0;
   margin-bottom: 2em;
 }
 
 .steps {
-  max-width: 700px;
-  margin: 0 50px;
+  max-width: 43.75em;
+  margin: 3.1em;
+
+  text-align: center;
 }
 
 .step-img {
   width: 100%;
-  max-width: 315px;
+  max-width: 19.68em;
   border: 3px solid #ededed;
 }
 
 .step-desc {
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 300;
   color: #666666;
   margin: 0px;
   padding-bottom: 0.25em;
+}
+
+.addons {
+  background-color: #532d7a;
+}
+
+.addons-img {
+  max-width: 100%;
+}
+
+.addons-heading {
+  margin-bottom: 2em;
+}
+
+.addons {
+  padding: 5em 1em;
+  text-align: center;
+}
+
+.buttons {
+  margin: auto;
+  align-items: center;
+  padding-right: 0.8em;
+  display: flex;
+}
+
+.addon-btn {
+  margin: 0.4em;
 }
