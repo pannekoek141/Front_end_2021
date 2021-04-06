@@ -52,20 +52,18 @@ Mijn startniveau is blauw. Dit omdat ik weinig ervaring met progammeren heb, tij
 Het begrijpen van HTML, CSS en Javascript om als ontwerper een betere blik te krijgen om progammeren. 
 
 **aantekeningen**
-html tab index voor de navigatie en cursor pointer in css
-2 h1's mag niet 
-article naar section bij faq 
-accordionitem wel article 
-body2 matig 
+html tab index voor de navigatie en cursor pointer in css - Fixed, soort van
+2 h1's mag niet - Fixed
+article naar section bij faq - fixed
 2x is is voor grotere schermen 
-b vervangen door strong 
-pagina 2 section met article 
-pagina 2 iets meer uitbreiden 
-font size in EM 
+b vervangen door strong - fixed
+pagina 2 section met article - fixed
+pagina 2 iets meer uitbreiden - fixed
+font size in EM - fixed 
 alleen border 
 qeuryselector all 
 i staat voor iterator 
-kijk of je er door heen kan tabben 
+kijk of je er door heen kan tabben - fixed 
 
 
 **Je opdracht:** 
